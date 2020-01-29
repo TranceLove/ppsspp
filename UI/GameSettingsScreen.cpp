@@ -347,7 +347,7 @@ void GameSettingsScreen::CreateViews() {
 #endif
 	CheckBox *frameDuplication = graphicsSettings->Add(new CheckBox(&g_Config.bRenderDuplicateFrames, gr->T("Render duplicate frames to 60hz")));
 	frameDuplication->OnClick.Add([=](EventParams &e) {
-		settingInfo_->Show(gr->T("RenderDuplicateFrames Tip", "Can make framerate smoother in games that run below 60hz"), e.v);
+		settingInfo_->Show(gr->T("RenderDuplicateFrames Tip", "Can make framerate smoother in games that run at lower framerates"), e.v);
 		return UI::EVENT_CONTINUE;
 	});
 
