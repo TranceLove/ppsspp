@@ -195,6 +195,7 @@ public:
 	std::string sPostShaderName;  // Off for off.
 	bool bGfxDebugOutput;
 	bool bGfxDebugSplitSubmit;
+	bool bRenderDuplicateFrames;
 
 	// Sound
 	bool bEnableSound;
