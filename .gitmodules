@@ -25,3 +25,7 @@
 [submodule "ext/rapidjson"]
 	path = ext/rapidjson
 	url = https://github.com/Tencent/rapidjson.git
+[submodule "debian"]
+	path = debian
+	url = https://github.com/TranceLove/ppsspp-debian
+	branch = 1.9.4
